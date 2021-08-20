@@ -1,0 +1,394 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .container{
+            padding-bottom:0px;
+        }
+        .logo nav{
+            padding-left: 10px;
+            padding-bottom: 50px;
+        }
+ .container ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: white;
+     padding-right: 50px;
+     padding-top: 10px;
+  }
+.container ul  li {
+    float: left;
+  }
+.container  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#777;
+ }
+.container  .active {
+    background-color: white;
+    color:#777;
+    padding-top:30px;
+    font-size: 15px;
+ }
+.container li a h1{
+     padding-left: 30px;
+     font-size: 30px;
+     color: rgb(27, 24, 24);
+ }
+.sec-2{
+            background-color: white;
+            background-image: url('index.jpeg');
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height:70%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px 0;
+            color:black;
+            }
+.sec-3{
+    background:rgb(235, 235, 224);
+    height: 500px;
+}
+#opacity{
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(88, 79, 79, 0.7);
+            text-align: center;
+            padding: 100px 0;
+            text-align: center;
+             
+        }
+.btn{
+           background-color:rgb(255, 0, 102);
+           border: none;
+           border-radius: 4px;
+           color: white;
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           margin: 4px 2px;
+     }   
+.sec-4{
+         color: black;
+         background:rgb(235, 235, 224);
+         text-align: center;
+         top:20px;
+         height:700px;
+     }
+#box{
+       margin-left: 30px;
+       margin-right: 270px;
+       background-color: white;
+   }
+
+.flexx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.flex-icon {
+    border-radius: 4px;
+    margin: 8px 8px 0 0;
+    width: 350px;
+    height: auto;
+    background: white;
+}
+.flex-icon h2{
+    text-align: center;
+}
+.flex-icon img {
+    padding: 55px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.sec-5{
+    text-align: center;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.gridd img{
+    padding: 55px;
+    width: 450px;
+    height: 300px;
+}
+.sec-6{
+    text-align: center;
+    background-color:#58666E;
+    color: white;
+    padding: 100px;
+
+}
+.sec-6 h1{
+    letter-spacing: 4px;
+}
+
+.col{
+    column-count: 2;
+    column-gap: 50px;
+}
+#box3{
+    width: 450px;
+    height:200px;
+    border-radius: 4px;
+    padding:0;
+    top:0;
+    border: 1px solid white;
+    background-color:#58666E;
+}
+#button {
+  width:400px;
+  height:30px;
+  background-color: hsl(336, 100%, 50%);
+  border-radius:4px;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#button:hover{
+    background: black;
+}
+.logo {
+    text-decoration: none;
+}
+.logo img{
+    width: 40px;
+    height:40px;
+}
+.logo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo li {
+  display: inline;
+  padding: 8px;
+}
+.sec-2 #opacity h1{
+    letter-spacing: 10px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 40px;
+}
+.sec-2 #opacity p{
+    letter-spacing: 3px;
+    color: white;
+}
+div.relative {
+    top: 50px;
+    left:100px;
+    position: relative;
+    width: 700px;
+    height: 300px;
+    background: white;
+    color: black;
+    border: 3px solid white;
+  } 
+.relative h1{
+      padding: 40px;
+      letter-spacing: 2px;
+  }
+  .relative p{
+      padding:30px;
+  }
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    left: 600px;
+    border-radius:50%;
+    border: 3px solid rgb(244, 245, 242);
+  }
+  .sec-4 h1{
+      letter-spacing: 4px;
+  }
+  .section4{
+      height:200px;
+  }
+  .sec-5{
+      letter-spacing: 4px;
+  }
+  .foot{
+      padding-bottom: 50px;
+  }
+  input::placeholder, textarea::placeholder{
+      color: white;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height:20px;
+  border:1px solid white;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 4px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color:#58666E;
+  color: white;
+}
+
+.fa-twitter {
+  background-color:#58666E;
+  color: white;
+}
+
+.fa-google {
+  background-color:#58666E;
+  color: white;
+}
+
+.fa-linkedin {
+  background-color:#58666E;
+  color: white;
+}
+
+.fa-youtube {
+  background-color:#58666E;
+  color: white;
+}
+
+.fa-instagram {
+  background-color:#58666E;
+  color: white;
+}
+</style>
+    </head>
+    <body>
+        <header>
+                <div class="container">
+                        <ul>
+                          <li><a href="#home"><h1>Snapshot</h1></a></li>
+                          <li style="float:right"><a class="active" href="#about">CONTACT</a></li>
+                            <li style="float:right"><a class="active" href="#about">GALLERY</a></li> 
+                            <li style="float:right"><a class="active" href="#about">ABOUT</a></li>
+                            <li style="float:right"><a class="active" href="#about">HOME</a></li>
+                        </ul>
+                       </div>
+</header>
+<div class="sec-2">
+  <div id="opacity">
+        <h1>LET'S TAKE A SNAPSHOT</h1><p>napshot  website  templates  is  available  for  free  download . Anyone  can  modify  it  and  use  it  for  any  site.</p><br>
+        <p>Please  tell  your  friend  about <span style="color:rgb(255, 0, 102);"> templatemp </span>. Thankyou .</p><br><button class="btn">Learn more</button>
+    </div></div>
+<div class="sec-3">
+    <div class="relative"><h1>BACKGROUND</h1><p>
+            Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis<br> quam sed libero euismod feugiat. In cursus nisi vitae lectus facilisis<br> mollis. Nullam scelerisque, quam nec iaculis vulputate.
+      </p>
+        <div class="absolute" style="background-image:url('greyscale.jpg');"></div>
+      </div>
+</div>
+<div class="sec-4" style="padding: 90px;">
+    <div class="section4">
+    <h1>SNAPSHOT TEAM </h1><br>
+    <p>LOREM IPSUM DOLAR SIT AMET , CONSECTETUR ADIPISCING ELIT.</p></div>
+    <div class="flexx">
+                    <div class = "flex-icon">
+                        <img src="girl.jpeg" alt="time icon" style="margin-bottom: 50px;">
+                        <h2 style="color:hsl(336, 100%, 50%);">MARY, CEO</h2>
+                    </div>
+                    <div class = "flex-icon">
+                            <img src="girl.jpeg" alt="time icon"style="margin-bottom: 50px;">
+                            <h2 style="color:hsl(336, 100%, 50%);">MARY, CEO</h2>
+                        </div>
+                        <div class = "flex-icon">
+                                <img src="girl.jpeg" alt="time icon"style="margin-bottom: 50px;">
+                                <h2 style="color:hsl(336, 100%, 50%);">MARY, CEO</h2>
+                            </div>           
+                        
+    </div>
+</div>
+<div class="sec-5" style="padding:80px;">
+<h1>GALLERY</h1>
+<p>Nullam scelerisque, quam nec iaculis vulputate, arcu ligula sollicitudin nisl, ac volutpat erat nulla a arcu.</p><br><br><br><br><br><br>
+<div class="gridd">
+    <img src="camera.jpg">
+    <img src="camera.jpg">
+    <img src="camera.jpg">
+    <img src="camera.jpg">
+    <br><br><br><br><br><br>
+</div>
+</div>
+<div class="sec-6">
+    <div class="foot">
+    <h1>S E N D      A     M E S S A G E</h1><br>
+    <p>Nunc suscipit ante in lectus laoreet, nec pharetra diam dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br><br><br>
+</div>
+
+ <div class="form" style="height:auto; width:auto;display: inline-flex; padding-bottom: 20px;">
+     <div class="box1">
+<input type="text" placeholder="Name" style="width:300px; height:50px;background-color:#58666E;border: 1px solid white; border-radius: 3px;">
+     </div>
+     <div class="box2">
+            <input type="text" placeholder="Email" style="width:300px; height:50px;background-color:#58666E;border: 1px solid white; margin-left:20px; border-radius: 3px;">
+        </div></div>
+        <div class="txt-area" style="padding-bottom:20px;">
+                <textarea name="message" placeholder="Message" rows="5" cols="57" style="background-color:#58666E;border: 1px solid white; border-radius: 3px;"></textarea>
+        </div>
+        <div class="button" style="padding-bottom:90px;">
+        <div class="btn">
+            <button id="button">Send Message</button>
+        </div></div>
+                        <div class="logo">
+                           <nav>
+                               <ul>
+                                   <li>
+                                        <a href="#" class="fa fa-facebook"></a>
+                                   </li>
+                                   <li><a href="#" class="fa fa-twitter"></a>
+                                   </li>
+                                   <li>
+                                        <a href="#" class="fa fa-google"></a>
+                                   </li>
+                                   <li>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                   </li>
+                                   <li><a href="#" class="fa fa-youtube"></a>
+                                   </li>
+                                   <li>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                   </li>
+                               </ul>
+                           </nav>
+                        </div>
+                    <p style="color:hsl(336, 100%, 50%);">Copyright  &copyright 2018 Binary Case | Developers_BnC</p>
+</div></div>
+</main>
+    </body>
+</html>
